@@ -23,6 +23,19 @@
     -->
     <title>React App</title>
   </head>
+  <style>
+    @media only screen and (orientation: portrait) {
+      #wrapper {
+        width: 1024px;
+      }
+    }
+
+    @media only screen and (orientation: landscape) {
+      #wrapper {
+        width: 1024px;
+      }
+    }
+  </style>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
@@ -36,5 +49,13 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      var lockFunction = window.screen.orientation.lock;
+      if (lockFunction.call(window.screen.orientation, "landscape")) {
+        console.log("Orientation locked");
+      } else {
+        console.error("There was a problem in locking the orientation");
+      }
+    </script>
   </body>
 </html>
