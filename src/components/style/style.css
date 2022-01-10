@@ -45,3 +45,6 @@
   transition: 0s;
   border-radius: 10%;
 }
+#list-hint {
+  overflow: scroll;
+}
