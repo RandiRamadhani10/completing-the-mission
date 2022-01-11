@@ -50,7 +50,7 @@ const Map = () => {
               className="h-16 w-16 p-2 rounded-full  border-2 border-white border-solid justify-center content-center "
               disabled={data[1].checkpoint ? false : true}
               onClick={() => {
-                navigate("/pos1");
+                navigate("/pos2");
               }}
             >
               <p className="font-bold text-white">2</p>
@@ -63,7 +63,7 @@ const Map = () => {
               className="h-16 w-16 p-2 rounded-full  border-2 border-white border-solid justify-center content-center "
               disabled={data[2].checkpoint ? false : true}
               onClick={() => {
-                navigate("/pos1");
+                navigate("/pos3");
               }}
             >
               <p className="font-bold text-white">3</p>
@@ -76,7 +76,7 @@ const Map = () => {
               className="h-16 w-16 p-2 rounded-full  border-2 border-white border-solid justify-center content-center "
               disabled={data[3].checkpoint ? false : true}
               onClick={() => {
-                navigate("/pos1");
+                navigate("/pos4");
               }}
             >
               <p className="font-bold text-white">4</p>
