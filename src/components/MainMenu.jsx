@@ -7,6 +7,10 @@ import { UserCircleIcon, InformationCircleIcon, XCircleIcon, PlayIcon } from "@h
 
 import "./style/style.css";
 import Swal from "sweetalert2";
+
+const src = require("../media/sound/backsound.mp3");
+const audio = new Audio(src);
+
 const Mainmenu = ({ data }) => {
   const location = useLocation();
   const navigate = useNavigate();
