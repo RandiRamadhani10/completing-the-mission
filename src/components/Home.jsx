@@ -24,6 +24,8 @@ const Home = () => {
   const [playing, setPlaying] = useState(true);
   const navigate = useNavigate();
   useEffect(async () => {
+    audio.loop = true;
+    audio.volume = 0.2;
     playing ? audio.play() : audio.pause();
   }, [playing]);
   return (

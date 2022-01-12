@@ -57,7 +57,7 @@ const Slide1 = () => {
       <div className="w-4/12 rounded-xl h-full bg-indigo-200 p-1 flex justify-center items-center">
         <img src={Sience} className="2-64" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-red-300 p-2">
+      <div className="w-6/12 rounded-xl h-full bg-red-300 p-2 text-xs">
         <h1 className="font-bold text-xl">Pos Ilmu</h1>
         <p className="font-bold">Bentuk Benda dan Sifatnya</p>
         <p className="text-justify">
@@ -76,7 +76,7 @@ const Slide2 = () => {
       </div>
       <div className="w-6/12  rounded-xl h-full bg-emerald-300 p-2">
         <p className="font-bold">1. Padat</p>
-        <ul class="list-disc px-5 ">
+        <ul class="list-disc px-5 text-sm">
           <li>Bentuk dan volumenya tetap.</li>
           <li>Mempunyai massa atau berat.</li>
           <li>Dapat disentuh dan dipegang.</li>
@@ -95,7 +95,7 @@ const Slide3 = () => {
       </div>
       <div className="w-6/12  rounded-xl h-full bg-blue-300 p-2">
         <p className="font-bold">2. Cair</p>
-        <ul class="list-disc px-5 ">
+        <ul class="list-disc px-5 text-sm">
           <li>Bentuknya berubah-ubah sesuai dengan tempatnya.</li>
           <li>Mempunyai volume yang tetap.</li>
           <li>mempunyai massa.</li>
@@ -114,7 +114,7 @@ const Slide4 = () => {
       </div>
       <div className="w-6/12  rounded-xl h-full bg-orange-300 p-2">
         <p className="font-bold">3. Gas</p>
-        <ul class="list-disc px-5 ">
+        <ul class="list-disc px-5 text-sm">
           <li>Mengisi seluruh ruang yang ditempati.</li>
           <li>Menekan segala arah.</li>
           <li>Bergerak ke segala arah.</li>
@@ -133,7 +133,7 @@ const Slide5 = () => {
       </div>
       <div className="w-6/12  rounded-xl h-full bg-lime-300 p-2">
         <p className="font-bold">Pengertian Perubahan Wujud Benda</p>
-        <p className="text-justify">
+        <p className="text-justify text-sm">
           Wujud benda dapat berubah disebabkan karena benda tersebut melepaskan atau menerima kalor. Kalor sendiri memiliki arti sebagai energi panas yang berpindah dari benda bersuhu tinggi ke benda bersuhu lebih rendah. Sedangkan
           perubahan wujud benda adalah suatu proses berubahnya wujud suatu benda menjadi wujud benda yang lain karena pelepasan atau penyerapan kalor.{" "}
         </p>

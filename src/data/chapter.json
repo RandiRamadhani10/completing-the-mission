@@ -3,7 +3,7 @@
     "data": [
       { "chapter": 1, "checkpoint": true, "exam": 0 },
       { "chapter": 2, "checkpoint": true, "exam": 0 },
-      { "chapter": 3, "checkpoint": false, "exam": 0 },
+      { "chapter": 3, "checkpoint": true, "exam": 0 },
       { "chapter": 4, "checkpoint": false, "exam": 0 }
     ]
   }
