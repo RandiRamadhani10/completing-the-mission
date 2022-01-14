@@ -27,7 +27,7 @@ const Mainmenu = ({ data }) => {
         <button
           className=" h-12 w-12  p-0  m-2 border-2 border-white border-solid justify-center content-center rounded-full bg-blue-500 "
           onClick={() => {
-            Alert.biodata();
+            navigate("/profile");
           }}
         >
           <UserCircleIcon className="text-white m-0" />

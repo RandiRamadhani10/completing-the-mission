@@ -61,6 +61,12 @@ const Pos2 = () => {
           <SwiperSlide>
             <Slide8 />
           </SwiperSlide>
+          <SwiperSlide>
+            <Slide9 />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Slide10 />
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>
@@ -100,23 +106,34 @@ const Slide3 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
       <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
-        <div className=" rounded-xl h-36 w-36 m-2  flex flex-col justify-center items-center">
+        <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
           <img src={cairPadat1} className="w-11/12" />
+          <p className="text-sm text-center">Air dan minyak ketika dimasukan di freezer akan membeku</p>
           <p className="text-xs text-blue-800">id.aliexpress.com/</p>
         </div>
-        <div className=" rounded-xl h-36 w-36 m-2  flex flex-col justify-center items-center">
+        <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
           <img src={cairPadat2} className="w-11/12" />
+          <p className="text-sm text-center">Lelehan lilin akan mengeras jika dibiarkan</p>
           <p className="text-xs text-blue-800">amuzigi.com/</p>
-        </div>
-        <div className=" rounded-xl h-36 w-36 m-2  flex flex-col justify-center items-center">
-          <img src={cairPadat3} className="w-11/12" />
-          <p className="text-xs text-blue-800">auliatrisna01.wordpress.com/</p>
         </div>
       </div>
     </div>
   );
 };
 const Slide4 = () => {
+  return (
+    <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
+      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+        <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
+          <img src={cairPadat3} className="w-11/12" />
+          <p className="text-sm text-center">Terbentuknya beleran pada kawah gunung</p>
+          <p className="text-xs text-blue-800">kompasiana.com/</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+const Slide5 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
       <div className="w-4/12 rounded-xl h-full p-1 flex justify-center items-center">
@@ -129,7 +146,7 @@ const Slide4 = () => {
     </div>
   );
 };
-const Slide5 = () => {
+const Slide6 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-10">
       <p>Contoh dalam Kehidupan Sehari-hari</p>
@@ -145,13 +162,13 @@ const Slide5 = () => {
     </div>
   );
 };
-const Slide6 = () => {
+const Slide = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
       <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-36 w-36 m-2  flex flex-col justify-center items-center">
           <img src={PadatCair1} className="w-11/12" />
-          <p className="text-xs text-blue-800">http://oddyazis.blogspot.com/</p>
+          <p className="text-xs text-blue-800">oddyazis.blogspot.com/</p>
         </div>
         <div className=" rounded-xl h-36 w-36 m-2  flex flex-col justify-center items-center">
           <img src={PadatCair2} className="w-11/12" />
@@ -171,12 +188,48 @@ const Slide6 = () => {
 };
 const Slide7 = () => {
   return (
+    <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
+      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+        <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
+          <img src={cairPadat2} className="w-11/12" />
+          <p className="text-sm text-center">Melelehnya lilin saat dibakar.</p>
+          <p className="text-xs text-blue-800">auliatrisna01.wordpress.com//</p>
+        </div>
+        <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
+          <img src={PadatCair3} className="w-11/12" />
+          <p className="text-sm text-center">Coklat batangan akan meleleh jika dipanaskan.</p>
+          <p className="text-xs text-blue-800">usaha321.net/</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+const Slide8 = () => {
+  return (
+    <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
+      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+        <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
+          <img src={PadatCair1} className="w-11/12" />
+          <p className="text-sm text-center">Mencairnya es batu yang diletakkan di ruang terbuka.</p>
+          <p className="text-xs text-blue-800">oddyazis.blogspot.com//</p>
+        </div>
+        <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
+          <img src={PadatCair2} className="w-11/12" />
+          <p className="text-sm text-center">Melelehnya mentega saat dipanaskan.</p>
+          <p className="text-xs text-blue-800">detikFood.com/</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+const Slide9 = () => {
+  return (
     <div className="flex h-full  flex-row justify-evenly items-center p-10">
       <img src={MencairPict} className="2-64" />
     </div>
   );
 };
-const Slide8 = () => {
+const Slide10 = () => {
   return (
     <div className="flex h-full  flex-row justify-center items-center p-5">
       <button className="p-5 bg-blue-500 rounded-xl">

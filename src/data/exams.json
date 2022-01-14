@@ -1,0 +1,234 @@
+[
+  {
+    "data": [
+      {
+        "pos": [
+          {
+            "no": 1,
+            "type": "normal",
+            "question": "Berikut adalah sifat dan ciri-ciri benda cair, baik dari bentuknya, volume, jarak partikel dan gaya tarik penyusunnya",
+            "answer": [
+              { "choice": "Bentuknya tidak tetap dan selalu berubah-ubah", "validate": true },
+              { "choice": "Memiliki volume yang tetap", "validate": false },
+              { "choice": "Jarak antarpartikel sangat rapat", "validate": false },
+              { "choice": "Gaya antar partikel cukup kuat", "validate": false }
+            ]
+          },
+          {
+            "no": 2,
+            "type": "normal",
+            "question": "Asap memiliki sifat berupa volume dan bentuk yang",
+            "answer": [
+              { "choice": "Berubah-ubah", "validate": true },
+              { "choice": "Tetap", "validate": false },
+              { "choice": "Sama", "validate": false },
+              { "choice": "Mirip", "validate": false }
+            ]
+          },
+          {
+            "no": 3,
+            "type": "multiple",
+            "question": "Perhatikan pernyataan berikut ini!",
+            "detailQuestion": [{ "data": "Volume tetap" }, { "data": "Volume berubah" }, { "data": "Bentuk tetap" }, { "data": "Bentuk berubah" }],
+            "answer": [
+              { "choice": "(1) dan (3)", "validate": true },
+              { "choice": "(1) dan (4)", "validate": false },
+              { "choice": "(2) dan (3)", "validate": false },
+              { "choice": "(2) dan (4)", "validate": false }
+            ]
+          },
+          {
+            "no": 4,
+            "type": "normal",
+            "question": "… merupakan sebuah energi yang berpindah dari suatu benda bersuhu tinggi ke benda bersuhu lebih rendah.",
+            "answer": [
+              { "choice": "Kalor", "validate": true },
+              { "choice": "Derajat panas", "validate": false },
+              { "choice": "Temperatur", "validate": false },
+              { "choice": "Suhu", "validate": false }
+            ]
+          },
+          {
+            "no": 5,
+            "type": "normal",
+            "question": "Peristiwa berubahnya suatu wujud benda menjadi wujud benda lainnya karena dipengaruhi kalor adalah pengertian dari.",
+            "answer": [
+              { "choice": "Perubahan wujud benda", "validate": true },
+              { "choice": "Kalor", "validate": false },
+              { "choice": "Sifat benda cair", "validate": false },
+              { "choice": "Wujud benda", "validate": false }
+            ]
+          }
+        ]
+      },
+      {
+        "pos": [
+          {
+            "no": 1,
+            "type": "normal",
+            "question": "Kegiatan berikut yang menunjukkan pemanfaatan proses perubahan wujud benda padat menjadi cair dalam kehidupan sehari-hari adalah",
+            "answer": [
+              { "choice": "Pemanasan mentega", "validate": true },
+              { "choice": "Pembuatan kamper", "validate": false },
+              { "choice": "Pembuatan es krim", "validate": false },
+              { "choice": "Pembuatan garam", "validate": false }
+            ]
+          },
+          {
+            "no": 2,
+            "type": "normal",
+            "question": "Ibu membuat kue bolu menggunakan mentega. Ibu memanaskan wajan kemudian mentega dimasukkan ke dalam wajan panas. Perubahan wujud yang terjadi setelah mentega dimasukkan dalam wajan disebut peristiwa!",
+            "answer": [
+              { "choice": "Mencair", "validate": true },
+              { "choice": "Mengkristal", "validate": false },
+              { "choice": "Menguap", "validate": false },
+              { "choice": "Membeku", "validate": false }
+            ]
+          },
+          {
+            "no": 3,
+            "type": "multiple",
+            "question": "Perhatikan pernyataan di bawah in!",
+            "detailQuestion": [{ "data": "  Menjemur pakaian" }, { "data": "Membuat es batu" }, { "data": "Membuat garam" }, { "data": "Mengeringkan padi" }, { "data": "Mencetak lilin" }],
+            "answer": [
+              { "choice": "(2) dan (5)", "validate": true },
+              { "choice": "(2) dan (4)", "validate": false },
+              { "choice": "(1) dan (3)", "validate": false },
+              { "choice": "(3) dan (5)", "validate": false }
+            ]
+          },
+
+          {
+            "no": 4,
+            "type": "normal",
+            "question": "Kegiatan yang memanfaatkan perubahan wujud dengan melepaskan kalor adalah",
+            "answer": [
+              { "choice": "Pembuatan agar-agar", "validate": true },
+              { "choice": "Pembuatan garam dapur", "validate": false },
+              { "choice": "Menjemur pakaian di bawah terik matahari", "validate": false },
+              { "choice": "Proses melelehnya lilin", "validate": false }
+            ]
+          },
+          {
+            "no": 5,
+            "type": "normal",
+            "question": "Lahar panas yang mengalir dari letusan gunung berapi akan menjadi batu dan pasir jika telah dingin. Peristiwa ini merupakan contoh",
+            "answer": [
+              { "choice": "Pembekuan", "validate": true },
+              { "choice": "Peleburan", "validate": false },
+              { "choice": "Penybliman", "validate": false },
+              { "choice": "Pengkristalan", "validate": false }
+            ]
+          }
+        ]
+      },
+      {
+        "pos": [
+          {
+            "no": 1,
+            "type": "normal",
+            "question": "Contoh perubahan wujud benda dari wujud gas menjadi cair yaitu pada peristiwa",
+            "answer": [
+              { "choice": "Terbentuknya air pada tutup gelas", "validate": true },
+              { "choice": "Es didalam gelas", "validate": false },
+              { "choice": "Mentega dipanaskan", "validate": false },
+              { "choice": "Kamper dibiarkan dalam lemari", "validate": false }
+            ]
+          },
+          {
+            "no": 2,
+            "type": "normal",
+            "question": "Proses penyebaran bau harum dari minyak wangi yang diletakkan di kamar merupakan contoh pemanfaatan perubahan wujud benda dari",
+            "answer": [
+              { "choice": "Cair menjadi gas", "validate": true },
+              { "choice": "Padat menjadi cair", "validate": false },
+              { "choice": "Padat menjadi gas", "validate": false },
+              { "choice": "Cair menjadi padat", "validate": false }
+            ]
+          },
+          {
+            "no": 3,
+            "type": "normal",
+            "question": "Saat hujan deras, Afis berada di dalam mobil. Meskipun kaca depan bagian luar selalu dibersikan dari air, kaca bagian dalam tetap basah. Peristiwa tersebt menunjukkan",
+            "answer": [
+              { "choice": "Pengembunan", "validate": true },
+              { "choice": "Pencairan", "validate": false },
+              { "choice": "Penguapan", "validate": false },
+              { "choice": "Pembekuan", "validate": false }
+            ]
+          },
+          {
+            "no": 4,
+            "type": "normal",
+            "question": "Cara mempercepat penguapan pada susu panas adalah dengan cara ",
+            "answer": [
+              { "choice": "Memperlebar permukaan wadah", "validate": true },
+              { "choice": "Dilakukan penjemuran pada terik matahari", "validate": false },
+              { "choice": "Dipindahkan ke wadah yang lebih sempit", "validate": false },
+              { "choice": "Didiamkan di dalam lemari es", "validate": false }
+            ]
+          },
+          {
+            "no": 5,
+            "type": "normal",
+            "question": "Contoh perubahan wujud dengan proses penguapan ditunjukkan pada peristiwa...",
+            "answer": [
+              { "choice": "Hand sanitizer yang mengering saat diolehkan ke tangan", "validate": true },
+              { "choice": "Mencairnya es di kutub", "validate": false },
+              { "choice": "Terbentuknya belerang di kawah gunung", "validate": false },
+              { "choice": "Nafas yang dihembuskan kaca", "validate": false }
+            ]
+          }
+        ]
+      },
+      {
+        "pos": [
+          {
+            "no": 1,
+            "type": "normal",
+            "question": "Contoh pemanfaatan perubahan wujud menyublim adalah",
+            "answer": [
+              { "choice": "Penggunaan pewangi ruangan jenis padat", "validate": true },
+              { "choice": "Proses pembuatan gula jawa", "validate": false },
+              { "choice": "Menyemprotkan pembasmi nyamuk", "validate": false },
+              { "choice": "Proses pembuatan es krim", "validate": false }
+            ]
+          },
+          {
+            "no": 2,
+            "type": "normal",
+            "question": "Pengkristalan adalah perubahan benda dari yang berwujud",
+            "answer": [
+              { "choice": "Gas menjadi padat", "validate": true },
+              { "choice": "Gas menjadi cair", "validate": false },
+              { "choice": "Cair menjadi padat", "validate": false },
+              { "choice": "Padat menjadi gas", "validate": false }
+            ]
+          },
+          {
+            "no": 3,
+            "type": "normal",
+            "question": "Es kering dibuat dari bahan ...",
+            "answer": [
+              { "choice": "Karbondioksida", "validate": true },
+              { "choice": "Oksigen", "validate": false },
+              { "choice": "Sufur", "validate": false },
+              { "choice": "Nitrogen", "validate": false }
+            ]
+          },
+          {
+            "no": 4,
+            "type": "normal",
+            "question": "Terbentuknya asap dari pembakaran obat nyamuk adalah proses perubahan wujud ...",
+            "answer": [
+              { "choice": "Penyubliman", "validate": true },
+              { "choice": "Peleburan", "validate": false },
+              { "choice": "Pengkristalan", "validate": false },
+              { "choice": "Penguapan", "validate": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
