@@ -5,6 +5,7 @@ import SwiperCore, { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 
+import Alert from "../Helper/Alert";
 import Question from "../data/exams.json";
 
 import { useNavigate, useLocation } from "react-router-dom";
@@ -51,22 +52,38 @@ const Quest = ({ prop, arr }) => {
     const id = Math.random().toString();
     return id.slice(2);
   };
+  const datasRandom = datas.answer.sort(() => Math.random() - 0.5);
   return (
     <div className="p-2 flex h-full w-full flex-col justify-start items-center bg-neutral-50">
-      <div className="p-3 flex flex-row bg-blue-500 rounded-xl w-full m-5">
-        <p>{datas.no}. </p>
-        <p>{datas.question}</p>
-      </div>
-
+      {datas.type == "normal" ? (
+        <div className="p-3 flex flex-row bg-blue-500 rounded-xl w-full m-5">
+          <p>{datas.no}. </p>
+          <p>{datas.question}</p>
+        </div>
+      ) : (
+        <div className="p-3 flex flex-col bg-blue-500 rounded-xl w-full m-2">
+          <div className="flex flex-row">
+            <p>{datas.no}. </p>
+            <p>{datas.question}</p>
+          </div>
+          <ul class="list-decimal px-5 text-xs">
+            {datas.detailQuestion.map((data, index) => {
+              return <li>{data.data}</li>;
+            })}
+          </ul>
+          <p className="text-xs">{datas.question1}</p>
+        </div>
+      )}
       <form className="px-7 rounded-xl w-full">
-        {datas.answer.map((data, index) => {
+        {datasRandom.map((data, index) => {
           let id = uniqid();
+
           return (
             <div key={index} className="p-3 flex flex-row items-center bg-red-500 rounded-xl w-full my-1">
               <input
                 type="radio"
                 id={id}
-                name="fav_language"
+                name="answer"
                 value={data.validate}
                 onClick={() => {
                   arr[indexProp].data = data.validate;
@@ -84,14 +101,22 @@ const Quest = ({ prop, arr }) => {
   );
 };
 const End = ({ arr }) => {
+  let count = 0;
+
   return (
-    <div>
+    <div className="flex h-full  flex-row justify-center items-center p-5">
       <button
+        className="p-5 bg-blue-500 rounded-xl"
         onClick={() => {
-          console.log(arr);
+          arr.map((datas, index) => {
+            datas.data ? (count = count + 20) : (count = count);
+          });
+          console.log(count);
+          count < 80 ? Alert.fail() : Alert.success();
+          count = 0;
         }}
       >
-        button
+        <p className="text-xl text-white font-bold">Akhiri Tes</p>
       </button>
     </div>
   );

@@ -297,9 +297,15 @@ const Slide14 = () => {
   );
 };
 const Slide15 = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex h-full  flex-row justify-center items-center p-5">
-      <button className="p-5 bg-blue-500 rounded-xl">
+      <button
+        className="p-5 bg-blue-500 rounded-xl"
+        onClick={() => {
+          navigate("/exam", { state: "0" });
+        }}
+      >
         <p className="text-xl text-white font-bold">Mulai Tes</p>
       </button>
     </div>
