@@ -14,7 +14,7 @@ const audio = new Audio(src);
 const Mainmenu = ({ data }) => {
   const location = useLocation();
   const navigate = useNavigate();
-  console.log(location);
+  console.log(location.state);
   return (
     <div id="bodyHome">
       <div className="absolute bottom-0 left-10 flex flex-row ">

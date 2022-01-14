@@ -20,9 +20,6 @@ const Map = () => {
   console.log(data[1].checkpoint);
   return (
     <div id="bodyHome" className="">
-      <div className="w-full flex  justify-center items-center">
-        <h1 className="p-4 bg-neutral-50 rounded-xl m-1 font-bold">AYO BELAJAR</h1>
-      </div>
       <div className="flex w-full h-full flex-row justify-center items-center">
         <div className="flex justify-between items-center w-full px-10 bg-orange-900 h-2">
           <div className="h-16 w-16 rounded-full bg-blue-500">
