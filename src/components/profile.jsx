@@ -15,24 +15,33 @@ const Profile = () => {
           <div className="m-5 w-full flex flex-col rounded-xl border-4 border-colorCustom-leaf bg-neutral-50">
             <img src={ProfileDev} className="h-32 w-28 mx-auto p-3" alt="" />
 
-            <p className="px-10">Mahasiswa </p>
+            <p className="px-10 font-bold">Mahasiswa </p>
             <ol className=" py-2 px-10  list-disc text-sm mx-5   ">
-              <li>Nama : Dwi Agustin Purnaning.</li>
-              <li>NIM : 18010644099.</li>
-              <li>Jurusan : S1 Pendidikan Guru Sekolah Dasar.</li>
-              <li>Alamat : Ds. Kebonagung Kec. Ploso Kab Jombang.</li>
-              <li>Email : dwiagustinprn@gmail.com.</li>
+              <li className="flex-row flex">
+                <p className="w-16">Nama</p><p>: Dwi Agustin Purnaning.</p>
+              </li>
+              <li className="flex-row flex">
+                <p className="w-16">NIM</p><p>: 18010644099.</p>
+              </li>
+              <li className="flex-row flex">
+                <p className="w-16">Jurusan</p><p>: S1 Pendidikan Guru Sekolah Dasar.</p>
+              </li>
+              <li className="flex-row flex">
+                <p className="w-16">Alamat</p><p>: Ds. Kebonagung Kec. Ploso Kab Jombang.</p>
+              </li>
+              <li className="flex-row flex">
+                <p className="w-16">Email</p><p>: dwiagustinprn@gmail.com.</p>
+              </li>
             </ol>
-            <p className="px-10">Dosen Pembimbing </p>
-            <p className="px-10">Farida Istianah, S.Pd., M.Pd. </p>
+            <p className="px-10 font-bold">Dosen Pembimbing</p>
+            <p className="px-10 text-sm">Farida Istianah, S.Pd., M.Pd.</p>
           </div>
           <button
             className="absolute right-0 top-0 h-12 w-12  p-0  border-2 border-white border-solid justify-center content-center rounded-full bg-blue-500 "
             onClick={() => {
               navigate("/menu");
             }}
-          >
-            <XCircleIcon className="text-white m-0" />
+          ><XCircleIcon className="text-white m-0"/>
           </button>
         </div>
       </div>

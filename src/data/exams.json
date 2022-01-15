@@ -32,8 +32,8 @@
             "detailQuestion": [{ "data": "Volume tetap" }, { "data": "Volume berubah" }, { "data": "Bentuk tetap" }, { "data": "Bentuk berubah" }],
             "question1": "Pernyataan yang benar tentang benda cair adalah…",
             "answer": [
-              { "choice": "(1) dan (3)", "validate": true },
-              { "choice": "(1) dan (4)", "validate": false },
+              { "choice": "(1) dan (3)", "validate": false },
+              { "choice": "(1) dan (4)", "validate": true },
               { "choice": "(2) dan (3)", "validate": false },
               { "choice": "(2) dan (4)", "validate": false }
             ]

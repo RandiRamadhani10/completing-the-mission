@@ -62,7 +62,7 @@ const Quest = ({ prop, arr }) => {
           <p>{datas.question}</p>
         </div>
       ) : (
-        <div className="p-3 flex flex-col bg-neutral-50  rounded-xl w-full m-2">
+        <div className="p-3 flex flex-col bg-neutral-50 border-4 border-colorCustom-leaf rounded-xl w-full m-2">
           <div className="flex flex-row">
             <p>{datas.no}. </p>
             <p>{datas.question}</p>
@@ -133,7 +133,7 @@ const End = ({ arr }) => {
             let dataPush = data;
             let index = parseInt(location.state);
 
-            dataPush[index + 1].exam = count;
+            dataPush[index].exam = count;
             location.state < 3 ? (dataPush[index + 1].checkpoint = true) : console.log("pancet");
             dataPush = [{ data: dataPush }];
 
