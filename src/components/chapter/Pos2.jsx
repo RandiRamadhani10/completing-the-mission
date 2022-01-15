@@ -35,7 +35,7 @@ const Pos2 = () => {
       >
         <XCircleIcon className="text-white m-0" />
       </button>
-      <div className="flex h-full rounded-xl  bg-white">
+      <div className="flex h-full rounded-xl">
         <Swiper navigation={true} className="mySwiper">
           <SwiperSlide>
             <Slide1 />
@@ -75,10 +75,10 @@ const Pos2 = () => {
 const Slide1 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
-      <div className="w-4/12 rounded-xl h-full p-1 flex justify-center items-center">
+      <div className="w-4/12 rounded-xl h-full p-1 flex justify-center  items-center">
         <video src={Membeku} autoPlay muted loop type="video/mp4" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-red-300 p-2">
+      <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <h1 className="font-bold text-xl">POS PADAT DAN CAIR</h1>
         <p className="font-bold">Membeku (Cair – Padat)</p>
         <p className="text-justify text-sm">Membeku merupakan peristiwa perubahan wujud dari zat cair menjadi zat padat yang disebabkan karena pelepasan kalor.</p>
@@ -88,10 +88,10 @@ const Slide1 = () => {
 };
 const Slide2 = () => {
   return (
-    <div className="flex h-full  flex-row justify-evenly items-center p-10">
-      <p>Contoh dalam Kehidupan Sehari-hari</p>
+    <div className="flex h-full   flex-row justify-evenly items-center p-10">
+      <p className="text-white font-bold">Contoh dalam Kehidupan Sehari-hari</p>
 
-      <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-red-300 p-2">
+      <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <ul class="list-disc px-5 text-sm">
           <li>Terbentuknya es batu ketika air dimasukkan ke dalam freezer.</li>
           <li>Membekunya minyak goreng yang didinginkan dalam lemari es.</li>
@@ -105,8 +105,8 @@ const Slide2 = () => {
 const Slide3 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
-        <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf rounded-xl flex-wrap  flex-row justify-evenly items-center p-1">
+        <div className=" rounded-xl h-48 w-48   flex flex-col justify-center items-center">
           <img src={cairPadat1} className="w-11/12" />
           <p className="text-sm text-center">Air dan minyak ketika dimasukan di freezer akan membeku</p>
           <p className="text-xs text-blue-800">id.aliexpress.com/</p>
@@ -123,7 +123,7 @@ const Slide3 = () => {
 const Slide4 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf rounded-xl  flex-wrap  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
           <img src={cairPadat3} className="w-11/12" />
           <p className="text-sm text-center">Terbentuknya beleran pada kawah gunung</p>
@@ -136,10 +136,10 @@ const Slide4 = () => {
 const Slide5 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
-      <div className="w-4/12 rounded-xl h-full p-1 flex justify-center items-center">
+      <div className="w-4/12 rounded-xl h-full p-1 flex  justify-center items-center">
         <video src={Mencair} autoPlay muted loop type="video/mp4" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-emerald-300 p-2">
+      <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="font-bold ">Mencair (Padat – Cair)</p>
         <p className="text-justify text-sm">Mencair adalah peristiwa berubahnya zat padat menjadi zat cair, peristiwa ini disebabkan karena penyerapan kalor.</p>
       </div>
@@ -149,9 +149,9 @@ const Slide5 = () => {
 const Slide6 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-10">
-      <p>Contoh dalam Kehidupan Sehari-hari</p>
+      <p className=" font-bold">Contoh dalam Kehidupan Sehari-hari</p>
 
-      <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-emerald-300 p-2">
+      <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <ul class="list-disc px-5 text-sm">
           <li>Mencairnya es batu yang diletakkan di ruangan terbuka.</li>
           <li>Melelehnya mentega saat dipanaskan.</li>
@@ -162,34 +162,11 @@ const Slide6 = () => {
     </div>
   );
 };
-const Slide = () => {
-  return (
-    <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
-        <div className=" rounded-xl h-36 w-36 m-2  flex flex-col justify-center items-center">
-          <img src={PadatCair1} className="w-11/12" />
-          <p className="text-xs text-blue-800">oddyazis.blogspot.com/</p>
-        </div>
-        <div className=" rounded-xl h-36 w-36 m-2  flex flex-col justify-center items-center">
-          <img src={PadatCair2} className="w-11/12" />
-          <p className="text-xs text-blue-800">detikFood.com/</p>
-        </div>
-        <div className=" rounded-xl h-36 w-36 m-2  flex flex-col justify-center items-center">
-          <img src={PadatCair3} className="w-11/12" />
-          <p className="text-xs text-blue-800">usaha321.net</p>
-        </div>
-        <div className=" rounded-xl h-36 w-36 m-2  flex flex-col justify-center items-center">
-          <img src={cairPadat2} className="w-11/12" />
-          <p className="text-xs text-blue-800"> auliatrisna01.wordpress.com</p>
-        </div>
-      </div>
-    </div>
-  );
-};
+
 const Slide7 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+      <div className="flex h-80 w-11/12  flex-wrap bg-colorCustom-wood border-4 border-colorCustom-leaf  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
           <img src={cairPadat2} className="w-11/12" />
           <p className="text-sm text-center">Melelehnya lilin saat dibakar.</p>
@@ -207,7 +184,7 @@ const Slide7 = () => {
 const Slide8 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+      <div className="flex h-80 w-11/12  flex-wrap bg-colorCustom-wood border-4 border-colorCustom-leaf flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
           <img src={PadatCair1} className="w-11/12" />
           <p className="text-sm text-center">Mencairnya es batu yang diletakkan di ruang terbuka.</p>

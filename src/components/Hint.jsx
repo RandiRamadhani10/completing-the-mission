@@ -8,11 +8,11 @@ const Hint = () => {
   return (
     <div id="bodyHome">
       <div className="flex w-full h-full items-center flex-col ">
-        <div className="w-80  rounded-xl p-2  flex justify-center bg-red-200 m-2">
+        <div className="w-80  rounded-xl p-2  flex justify-center bg-colorCustom-wood border-4 border-colorCustom-leaf m-2">
           <h1 className="text-3xl font-semibold ">Petunjuk</h1>
         </div>
         <div className="relative flex items-center h-full w-full" id="list-hint">
-          <ol className="w-90 h-90 py-2 px-10 list-decimal flex text-sm mx-5 flex-col bg-neutral-50 rounded-xl">
+          <ol className="w-90 h-90 py-2 px-10 list-decimal flex text-sm mx-5 flex-col border-4 border-colorCustom-leaf bg-neutral-50 rounded-xl">
             <li>Klik tombol “Start” untuk memulai misi.</li>
             <li>Misi ini dilakukan secara individu.</li>
             <li>Pilih pos pertama untuk kamu bisa memulai misi.</li>

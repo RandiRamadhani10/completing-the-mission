@@ -38,7 +38,7 @@ const Pos3 = () => {
       >
         <XCircleIcon className="text-white m-0" />
       </button>
-      <div className="flex h-full rounded-xl  bg-white">
+      <div className="flex h-full rounded-xl ">
         <Swiper navigation={true} className="mySwiper">
           <SwiperSlide>
             <Slide1 />
@@ -93,10 +93,10 @@ const Pos3 = () => {
 const Slide1 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
-      <div className="w-4/12 rounded-xl h-full p-1 flex justify-center items-center">
+      <div className="w-4/12 rounded-xl h-full  p-1 flex justify-center items-center">
         <video src={Mengembun} autoPlay muted loop type="video/mp4" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-red-300 p-2">
+      <div className="w-6/12 bg-colorCustom-wood border-4 border-colorCustom-leaf  rounded-xl h-full  p-2">
         <h1 className="font-bold text-xl">POS CAIR DAN GAS</h1>
         <p className="font-bold">Mengembun (Gas – Cair)</p>
         <p className="text-justify text-sm">Mengembun merupakan peristiwa berubahnya wujud dari zat gas menjadi zat cair yang disebabkan karena pelepasan kalor.</p>
@@ -107,9 +107,9 @@ const Slide1 = () => {
 const Slide2 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-10">
-      <p>Contoh dalam Kehidupan Sehari-hari</p>
+      <p className="font-bold">Contoh dalam Kehidupan Sehari-hari</p>
 
-      <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-red-300 p-2">
+      <div className="w-6/12 flex bg-colorCustom-wood border-4 border-colorCustom-leaf flex-col justify-center rounded-xl h-full p-2">
         <ul class="list-disc px-5 text-sm">
           <li>Es batu di dalam gelas akan menghasilkan bintik-bintik air diluar gelas.</li>
           <li>Titik air di rumput saat pagi hari berasal dari uap air yang menempel di daun menjadi embun.</li>
@@ -123,7 +123,7 @@ const Slide2 = () => {
 const Slide3 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+      <div className="flex h-80 w-11/12  flex-wrap bg-colorCustom-wood border-4 border-colorCustom-leaf flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
           <img src={Gascair1} className="w-11/12" />
           <p className="text-sm text-center">Es batu di dalam gelas akan menghasilkan bintik-bintik air diluar gelas.</p>
@@ -141,7 +141,7 @@ const Slide3 = () => {
 const Slide4 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+      <div className="flex h-80 w-11/12  flex-wrap bg-colorCustom-wood border-4 border-colorCustom-leaf flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
           <img src={Gascair3} className="w-11/12" />
           <p className="text-sm text-center">Ketika hujan akan muncul butiran air pada kaca mobil.</p>
@@ -162,7 +162,7 @@ const Slide5 = () => {
       <div className="w-4/12 rounded-xl h-full p-1 flex justify-center items-center">
         <video src={Menguap} autoPlay muted loop type="video/mp4" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-emerald-300 p-2">
+      <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf  p-2">
         <p className="font-bold">Menguap (Cair – Gas)</p>
         <p className="text-justify text-sm">Mengup adalah peristiwa berubahnya zat cair menjadi zat gas karena menyerapan kalor.</p>
       </div>
@@ -172,8 +172,8 @@ const Slide5 = () => {
 const Slide6 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
-      <p>Contoh dalam Kehidupan Sehari-hari</p>
-      <div className="w-6/12  rounded-xl h-full bg-emerald-300 p-2 flex flex-col justify-center">
+      <p className="font-bold">Contoh dalam Kehidupan Sehari-hari</p>
+      <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2 flex flex-col justify-center">
         <ul class="list-disc px-5 ">
           <li>Pembuatan garam oleh petani garam.</li>
           <li>Baju basah akan kering jika dijemur di bawah terik matahari.</li>
@@ -187,7 +187,7 @@ const Slide6 = () => {
 const Slide7 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+      <div className="flex h-80 w-11/12  flex-wrap bg-colorCustom-wood border-4 border-colorCustom-leaf  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
           <img src={Cairgas1} className="w-11/12" />
           <p className="text-sm text-center">Pembuatan garam oleh petani garam.</p>
@@ -205,7 +205,7 @@ const Slide7 = () => {
 const Slide8 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+      <div className="flex h-80 w-11/12  flex-wrap bg-colorCustom-wood border-4 border-colorCustom-leaf flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
           <img src={Cairgas3} className="w-11/12" />
           <p className="text-sm text-center">Air yang dimasak sampai mendidih lama-kelamaan akan berkurang.</p>
@@ -226,7 +226,7 @@ const Slide9 = () => {
       <div className="w-4/12 rounded-xl h-full p-1 flex justify-center items-center">
         <img src={Tutor5} className="w-11/12" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-emerald-300 p-2">
+      <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="font-bold">Penguapan dapat dipercepat, berikut adalah peristiwa yang dapat mempercepat pengupan:</p>
         <p className="text-justify ">1. Memanaskan zat cair. Contohnya adalah saat menjemur pakaian basah, agar pakaian cepat kering maka pakaian dijemur di bawah terik sinar matahari.</p>
       </div>
@@ -239,7 +239,7 @@ const Slide10 = () => {
       <div className="rounded-xl h-full p-1 flex justify-center items-center">
         <img src={Tutor4} className="w-3/12" />
       </div>
-      <div className="   m-10  rounded-xl h-full bg-emerald-300 p-2">
+      <div className="   m-10  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="text-justify ">
           2. Meniupkan udara di atas permukaan benda cair. Contohnya adalah saat meniup air teh yang masih panas, angin yang ditiupkan akan membawa molekul air meninggalkan air teh sehingga teh akan cepat dingin.
         </p>
@@ -253,7 +253,7 @@ const Slide11 = () => {
       <div className=" rounded-xl h-full p-1 flex justify-center items-center">
         <img src={Tutor3} className="w-6/12" />
       </div>
-      <div className="   m-10  rounded-xl h-full bg-emerald-300 p-2">
+      <div className="   m-10  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="text-justify ">
           3. Mengurangi tekanan pada permukaan zat cair. Zat cair yang berjumlah sedikit akan lebih cepat menguap dari pada zat cair yang berjumlah lebih banyak. Contohnya adalah terdapar dua gelas yang sama dengan jumlah isi air teh panas
           yang berbeda. Maka air teh dengan jumlah lebih sedikit akan lebih cepat dingin.
@@ -268,7 +268,7 @@ const Slide12 = () => {
       <div className="rounded-xl h-full pt-3 flex justify-center items-center">
         <img src={Tutor2} className="w-6/12" />
       </div>
-      <div className="   m-10  rounded-xl h-full bg-emerald-300 p-2">
+      <div className="   m-10  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="text-justify ">
           4. Memperluas permukaan zat cair. Jika permukaan semakin lebar maka semakin banyak molekul dipermukan yang dapt meninggalkan zat cair menjadi gas. Contohnya adalah air teh panas di dalam gelas dipindahkan ke piring atau wadah yang
           lebih lebar permukaanya.
@@ -283,7 +283,7 @@ const Slide13 = () => {
       <div className=" rounded-xl h-full p-1 flex justify-center items-center">
         <img src={Tutor1} className="w-6/12" />
       </div>
-      <div className="   m-10  rounded-xl h-full bg-emerald-300 p-2">
+      <div className="   m-10  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="text-justify ">5. Menyemburkan zait cair atau sama dengan memperluas permukaan zat cair dan memberi kemampuan menguap lebih besar. Contohnya adalah saat menyemprotkan parfum.</p>
       </div>
     </div>

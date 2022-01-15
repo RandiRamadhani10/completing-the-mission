@@ -8,11 +8,11 @@ const Profile = () => {
   return (
     <div id="bodyHome">
       <div className="flex w-full h-full items-center flex-col ">
-        <div className="w-64  rounded-xl p-2  flex justify-center bg-red-200 m-2">
+        <div className="w-64  rounded-xl p-2  flex justify-center bg-colorCustom-wood border-4 border-colorCustom-leaf m-2">
           <h1 className="text-2xl font-semibold ">Profil Pengembang</h1>
         </div>
         <div className="relative flex items-center justify-center h-full w-full" id="list-hint">
-          <div className="m-5 w-full flex flex-col rounded-xl bg-neutral-50">
+          <div className="m-5 w-full flex flex-col rounded-xl border-4 border-colorCustom-leaf bg-neutral-50">
             <img src={ProfileDev} className="h-32 w-28 mx-auto p-3" alt="" />
 
             <p className="px-10">Mahasiswa </p>

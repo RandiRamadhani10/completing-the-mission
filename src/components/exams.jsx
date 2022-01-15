@@ -75,12 +75,12 @@ const Quest = ({ prop, arr }) => {
           <p className="text-xs">{datas.question1}</p>
         </div>
       )}
-      <form className="px-7 rounded-xl w-full">
+      <form className="px-7 rounded-xl w-full flex flex-wor flex-wrap justify-between items-center">
         {datasRandom.map((data, index) => {
           let id = uniqid();
 
           return (
-            <div key={index} className="p-3 border-2 border-colorCustom-leaf flex flex-row items-center bg-neutral-50 border-2s rounded-xl w-full my-1">
+            <div key={index} className="p-3 border-2 w-2/5 border-colorCustom-leaf flex flex-row items-center bg-neutral-50 border-2s rounded-xl w-full my-1">
               <input
                 type="radio"
                 id={id}
@@ -88,7 +88,6 @@ const Quest = ({ prop, arr }) => {
                 value={data.validate}
                 onClick={() => {
                   arr[indexProp].data = data.validate;
-                  console.log(arr);
                 }}
               />
               <label for={id} className="px-2 text-xs w-full">

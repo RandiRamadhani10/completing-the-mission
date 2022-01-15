@@ -32,7 +32,7 @@ const Pos4 = () => {
       >
         <XCircleIcon className="text-white m-0" />
       </button>
-      <div className="flex h-full rounded-xl  bg-white">
+      <div className="flex h-full rounded-xl ">
         <Swiper navigation={true} className="mySwiper">
           <SwiperSlide>
             <Slide1 />
@@ -75,7 +75,7 @@ const Slide1 = () => {
       <div className="w-4/12 rounded-xl h-full p-1 flex justify-center items-center">
         <video src={Menyublin} autoPlay muted loop type="video/mp4" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-red-300 p-2">
+      <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <h1 className="font-bold text-xl">POS GAS DAN PADAT</h1>
         <p className="font-bold">Menyublim (Padat – Gas)</p>
         <p className="text-justify text-sm">Menyublim merupakan peristiwa perubahan zat padat menjadi zat cair yang dipengaruhi oleh meningkatnya kalor.</p>
@@ -86,9 +86,9 @@ const Slide1 = () => {
 const Slide2 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-10">
-      <p>Contoh dalam Kehidupan Sehari-hari</p>
+      <p className="font-bold">Contoh dalam Kehidupan Sehari-hari</p>
 
-      <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-red-300 p-2">
+      <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <ul class="list-disc px-5 text-sm">
           <li>Kapur barus yang diletakkan di lemari lama-kelamaan akan habis.</li>
           <li>Obat nyamuk yang dibakar akan menghasilkan asap sebagai racun nyamuk.</li>
@@ -102,7 +102,7 @@ const Slide2 = () => {
 const Slide3 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf flex-wrap  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
           <img src={PadatGas1} className="w-11/12" />
           <p className="text-sm text-center">Kapur barus yang diletakkan di lemari lama-kelamaan akan habis.</p>
@@ -120,7 +120,7 @@ const Slide3 = () => {
 const Slide4 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf flex-wrap  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
           <img src={PadatGas3} className="w-11/12" />
           <p className="text-sm text-center">Arang yang dibakar menjadi gas CO2.</p>
@@ -141,7 +141,7 @@ const Slide5 = () => {
       <div className="w-4/12 rounded-xl h-full p-1 flex justify-center items-center">
         <video src={Mengkristal} autoPlay muted loop type="video/mp4" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-emerald-300 p-2">
+      <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="font-bold">Mengkristal (Gas – Padat)</p>
         <p className="text-justify text-sm">Mengkristal adalah peristiwa berubahnya zat gas menjadi zat padat yang disebabkan karena pelepasan kalor dari suatu benda.</p>
       </div>
@@ -151,9 +151,9 @@ const Slide5 = () => {
 const Slide6 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-10">
-      <p>Contoh dalam Kehidupan Sehari-hari</p>
+      <p className="font-bold">Contoh dalam Kehidupan Sehari-hari</p>
 
-      <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-emerald-300 p-2">
+      <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <ul class="list-disc px-5 text-sm">
           <li>Timbulnya bunga es pada dinding freezer.</li>
           <li>Terbentuknya salju akibat uap air yang mengeras.</li>
@@ -168,7 +168,7 @@ const Slide6 = () => {
 const Slide7 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf flex-wrap  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
           <img src={GasPadat1} className="w-11/12" />
           <p className="text-sm text-center">Pembuatan es kering dari karbondioksida.</p>
@@ -186,7 +186,7 @@ const Slide7 = () => {
 const Slide8 = () => {
   return (
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
-      <div className="flex h-80 w-11/12  flex-wrap  flex-row justify-evenly items-center p-1">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf flex-wrap  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
           <img src={GasPadat3} className="w-11/12" />
           <p className="text-sm text-center">Arang yang dibakar menjadi gas CO2.</p>

@@ -52,7 +52,7 @@ const Home = () => {
       <button
         className=" h-12 w-12  p-0 m-2 border-2 border-white border-solid justify-center content-center rounded-full bg-blue-500 absolute right-2 bottom-0"
         onClick={() => {
-          navigate("menu", { state: "juga" });
+          navigate("menu", { state: "Randi Ganteng" });
         }}
       >
         <PlayIcon className="text-white m-0" />

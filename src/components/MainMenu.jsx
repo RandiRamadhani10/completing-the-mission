@@ -19,7 +19,7 @@ const Mainmenu = ({ data }) => {
     <div id="bodyHome">
       <div className="absolute bottom-0 left-10 flex flex-row ">
         <img src={Human} className="h-80" />
-        <div className="p-4 h-10 flex justify-center items-center m-2 rounded-full bg-neutral-50">
+        <div className="p-4 h-10 flex justify-center items-center m-2 rounded-full bg-neutral-50 border-4 border-colorCustom-leaf">
           <h1 className="font-semibold">Hai Aku Salam</h1>
         </div>
       </div>

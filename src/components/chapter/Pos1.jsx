@@ -26,7 +26,7 @@ const Pos1 = () => {
       >
         <XCircleIcon className="text-white m-0" />
       </button>
-      <div className="flex h-full rounded-xl  bg-neutral-100">
+      <div className="flex h-full rounded-xl ">
         <Swiper navigation={true} className="mySwiper">
           <SwiperSlide>
             <Slide1 />
@@ -54,10 +54,10 @@ const Pos1 = () => {
 const Slide1 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
-      <div className="w-4/12 rounded-xl h-full bg-indigo-200 p-1 flex justify-center items-center">
+      <div className="w-4/12 rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-1 flex justify-center items-center">
         <img src={Sience} className="2-64" />
       </div>
-      <div className="w-6/12 rounded-xl h-full bg-red-300 p-2 text-xs">
+      <div className="w-6/12 rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2 text-xs">
         <h1 className="font-bold text-xl">Pos Ilmu</h1>
         <p className="font-bold">Bentuk Benda dan Sifatnya</p>
         <p className="text-justify">
@@ -71,10 +71,10 @@ const Slide1 = () => {
 const Slide2 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
-      <div className="w-4/12 rounded-xl h-full bg-indigo-200 p-1 flex justify-center items-center">
+      <div className="w-4/12 rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-1 flex justify-center items-center">
         <img src={Padat} className="2-64" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-emerald-300 p-2">
+      <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="font-bold">1. Padat</p>
         <ul class="list-disc px-5 text-sm">
           <li>Bentuk dan volumenya tetap.</li>
@@ -90,10 +90,10 @@ const Slide2 = () => {
 const Slide3 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
-      <div className="w-4/12 rounded-xl h-full bg-indigo-200 p-1 flex justify-center items-center">
+      <div className="w-4/12 rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-1 flex justify-center items-center">
         <img src={Cair} className="2-64" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-blue-300 p-2">
+      <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="font-bold">2. Cair</p>
         <ul class="list-disc px-5 text-sm">
           <li>Bentuknya berubah-ubah sesuai dengan tempatnya.</li>
@@ -109,10 +109,10 @@ const Slide3 = () => {
 const Slide4 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
-      <div className="w-4/12 rounded-xl h-full bg-indigo-200 p-1 flex justify-center items-center">
+      <div className="w-4/12 rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-1 flex justify-center items-center">
         <img src={Gas} className="2-64" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-orange-300 p-2">
+      <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="font-bold">3. Gas</p>
         <ul class="list-disc px-5 text-sm">
           <li>Mengisi seluruh ruang yang ditempati.</li>
@@ -128,10 +128,10 @@ const Slide4 = () => {
 const Slide5 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
-      <div className="w-4/12 rounded-xl h-full bg-indigo-200 p-1 flex justify-center items-center">
+      <div className="w-4/12 rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-1 flex justify-center items-center">
         <img src={Mindmap} className="2-64" />
       </div>
-      <div className="w-6/12  rounded-xl h-full bg-lime-300 p-2">
+      <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="font-bold">Pengertian Perubahan Wujud Benda</p>
         <p className="text-justify text-sm">
           Wujud benda dapat berubah disebabkan karena benda tersebut melepaskan atau menerima kalor. Kalor sendiri memiliki arti sebagai energi panas yang berpindah dari benda bersuhu tinggi ke benda bersuhu lebih rendah. Sedangkan
