@@ -7,10 +7,11 @@ import "swiper/css/navigation";
 
 import Alert from "../Helper/Alert";
 import Question from "../data/exams.json";
-
+import Swal from "sweetalert2";
 import { useNavigate, useLocation } from "react-router-dom";
 import { XCircleIcon } from "@heroicons/react/solid";
-
+import chapters from "../data/chapter.json";
+import dataLocal from "../models/dataLokal";
 const Exams = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -101,19 +102,55 @@ const Quest = ({ prop, arr }) => {
   );
 };
 const End = ({ arr }) => {
+  const localStorage = dataLocal.loadData("checkpoint");
+  const location = useLocation();
+  const navigate = useNavigate();
   let count = 0;
+  let data;
 
+  localStorage.length > 0 ? (data = localStorage[0].data) : (data = chapters[0].data);
+  const validate = () => {
+    arr.map((datas, index) => {
+      datas.data ? (count = count + 20) : (count = count);
+    });
+    count < 80
+      ? Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Kamu belum berhasil",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            return navigate("/map");
+          } else {
+            return false;
+          }
+        })
+      : Swal.fire({
+          icon: "success",
+          title: "Good job!",
+          text: "Kamu berhasil",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            let dataPush = data;
+            let index = parseInt(location.state);
+
+            dataPush[index + 1].exam = count;
+            location.state < 3 ? (dataPush[index + 1].checkpoint = true) : console.log("pancet");
+            dataPush = [{ data: dataPush }];
+
+            dataLocal.setData(dataPush, "checkpoint");
+            return navigate("/map");
+          } else {
+            return false;
+          }
+        });
+  };
   return (
     <div className="flex h-full  flex-row justify-center items-center p-5">
       <button
         className="p-5 bg-blue-500 rounded-xl"
         onClick={() => {
-          arr.map((datas, index) => {
-            datas.data ? (count = count + 20) : (count = count);
-          });
-          console.log(count);
-          count < 80 ? Alert.fail() : Alert.success();
-          count = 0;
+          validate();
         }}
       >
         <p className="text-xl text-white font-bold">Akhiri Tes</p>

@@ -1,5 +1,5 @@
 import Swal from "sweetalert2";
-
+import { useNavigate, useLocation } from "react-router-dom";
 const Alert = {
   music() {
     Swal.fire({
@@ -19,12 +19,18 @@ const Alert = {
       }
     });
   },
-  fail() {
+  Fail() {
     Swal.fire({
       icon: "error",
       title: "Oops...",
       text: "Kamu belum berhasil",
       footer: '<a href="">Why do I have this issue?</a>',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        return true;
+      } else {
+        return false;
+      }
     });
   },
   success() {

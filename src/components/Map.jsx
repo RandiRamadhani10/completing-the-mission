@@ -13,10 +13,6 @@ const Map = () => {
   let data;
   localStorage.length > 0 ? (data = localStorage[0].data) : (data = chapters[0].data);
 
-  const [pos1, setPos1] = useState();
-  const [pos2, setPos2] = useState();
-  const [pos3, setPos3] = useState();
-  const [pos4, setPos4] = useState();
   console.log(data[1].checkpoint);
   return (
     <div id="bodyHome" className="">

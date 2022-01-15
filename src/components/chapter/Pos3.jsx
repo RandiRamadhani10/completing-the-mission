@@ -303,7 +303,7 @@ const Slide15 = () => {
       <button
         className="p-5 bg-blue-500 rounded-xl"
         onClick={() => {
-          navigate("/exam", { state: "0" });
+          navigate("/exam", { state: "2" });
         }}
       >
         <p className="text-xl text-white font-bold">Mulai Tes</p>
