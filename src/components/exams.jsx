@@ -29,7 +29,7 @@ const Exams = () => {
       >
         <XCircleIcon className="text-white m-0" />
       </button>
-      <div className="flex h-full rounded-xl  bg-white">
+      <div className="flex h-full rounded-xl">
         <Swiper navigation={true} className="mySwiper">
           {dataQuestions.map((data, index) => {
             return (
@@ -55,14 +55,14 @@ const Quest = ({ prop, arr }) => {
   };
   const datasRandom = datas.answer.sort(() => Math.random() - 0.5);
   return (
-    <div className="p-2 flex h-full w-full flex-col justify-start items-center bg-neutral-50">
+    <div className="p-2 flex h-full w-full flex-col justify-start rounded-xl items-center ">
       {datas.type == "normal" ? (
-        <div className="p-3 flex flex-row bg-blue-500 rounded-xl w-full m-5">
+        <div className="p-3 flex flex-row bg-neutral-50 border-4 border-colorCustom-leaf rounded-xl w-full m-5">
           <p>{datas.no}. </p>
           <p>{datas.question}</p>
         </div>
       ) : (
-        <div className="p-3 flex flex-col bg-blue-500 rounded-xl w-full m-2">
+        <div className="p-3 flex flex-col bg-neutral-50  rounded-xl w-full m-2">
           <div className="flex flex-row">
             <p>{datas.no}. </p>
             <p>{datas.question}</p>
@@ -80,7 +80,7 @@ const Quest = ({ prop, arr }) => {
           let id = uniqid();
 
           return (
-            <div key={index} className="p-3 flex flex-row items-center bg-red-500 rounded-xl w-full my-1">
+            <div key={index} className="p-3 border-2 border-colorCustom-leaf flex flex-row items-center bg-neutral-50 border-2s rounded-xl w-full my-1">
               <input
                 type="radio"
                 id={id}
