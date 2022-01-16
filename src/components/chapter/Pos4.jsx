@@ -89,7 +89,7 @@ const Slide2 = () => {
       <p className="font-bold">Contoh dalam Kehidupan Sehari-hari</p>
 
       <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
-        <ul class="list-disc px-5 text-sm">
+        <ul class="list-disc px-5 text-xs">
           <li>Kapur barus yang diletakkan di lemari lama-kelamaan akan habis.</li>
           <li>Obat nyamuk yang dibakar akan menghasilkan asap sebagai racun nyamuk.</li>
           <li>Arang yang dibakar menjadi gas CO2</li>
@@ -170,12 +170,12 @@ const Slide7 = () => {
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
       <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf flex-wrap  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
-          <img src={GasPadat1} className="w-11/12" />
+          <img src={GasPadat3} className="w-11/12" />
           <p className="text-sm text-center">Pembuatan es kering dari karbondioksida.</p>
           <p className="text-xs text-blue-800">mojok.co</p>
         </div>
         <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
-          <img src={GasPadat2} className="w-11/12" />
+          <img src={GasPadat4} className="w-11/12" />
           <p className="text-sm text-center">Lubang knalpot menjadi kotor berwarna hitam karena gas CO2 yang dikeluarkan mengeras.</p>
           <p className="text-xs text-blue-800">cnnindonesia.com</p>
         </div>
@@ -188,13 +188,15 @@ const Slide8 = () => {
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
       <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf flex-wrap  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
-          <img src={GasPadat3} className="w-11/12" />
-          <p className="text-sm text-center">Arang yang dibakar menjadi gas CO2.</p>
+          <img src={GasPadat1} className="w-11/12" />
+          <p className="text-sm text-center">
+            Timbulnya bunga es pada dinding <span className="italic">freezer</span>.
+          </p>
           <p className="text-xs text-blue-800">Alodokter.com</p>
         </div>
         <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
-          <img src={GasPadat4} className="w-11/12" />
-          <p className="text-sm text-center">Es batu yang dikeluarkan pada suhu ruangan akan mengeluarkan gas seperti asap berwarna putih.</p>
+          <img src={GasPadat2} className="w-11/12" />
+          <p className="text-sm text-center">Terbentuknya salju akibat uap air yang mengeras.</p>
           <p className="text-xs text-blue-800">Cargo.id</p>
         </div>
       </div>

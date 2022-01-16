@@ -164,7 +164,7 @@ const Slide5 = () => {
       </div>
       <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf  p-2">
         <p className="font-bold">Menguap (Cair – Gas)</p>
-        <p className="text-justify text-sm">Mengup adalah peristiwa berubahnya zat cair menjadi zat gas karena menyerapan kalor.</p>
+        <p className="text-justify text-sm">Menguap adalah peristiwa berubahnya zat cair menjadi zat gas karena menyerapan kalor.</p>
       </div>
     </div>
   );
@@ -240,9 +240,8 @@ const Slide10 = () => {
         <img src={Tutor4} className="w-3/12" />
       </div>
       <div className="   m-10  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
-        <p className="text-justify ">
-          2. Meniupkan udara di atas permukaan benda cair. Contohnya adalah saat meniup air teh yang masih panas, angin yang ditiupkan akan membawa molekul air meninggalkan air teh sehingga teh akan cepat dingin.
-        </p>
+        <p className="text-justify ">2. Meniupkan udara di atas permukaan benda cair.</p>
+        <span>Contohnya adalah saat meniup air teh yang masih panas, angin yang ditiupkan akan membawa molekul air meninggalkan air teh sehingga teh akan cepat dingin.</span>
       </div>
     </div>
   );
@@ -269,10 +268,8 @@ const Slide12 = () => {
         <img src={Tutor2} className="w-6/12" />
       </div>
       <div className="   m-10  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
-        <p className="text-justify ">
-          4. Memperluas permukaan zat cair. Jika permukaan semakin lebar maka semakin banyak molekul dipermukan yang dapt meninggalkan zat cair menjadi gas. Contohnya adalah air teh panas di dalam gelas dipindahkan ke piring atau wadah yang
-          lebih lebar permukaanya.
-        </p>
+        <p className="text-justify ">4. Memperluas permukaan zat cair. Jika permukaan semakin lebar maka semakin banyak molekul dipermukan yang dapat meninggalkan zat cair menjadi gas.</p>
+        <span>Contohnya adalah air teh panas di dalam gelas dipindahkan ke piring atau wadah yang lebih lebar permukaanya.</span>
       </div>
     </div>
   );
@@ -284,7 +281,8 @@ const Slide13 = () => {
         <img src={Tutor1} className="w-6/12" />
       </div>
       <div className="   m-10  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
-        <p className="text-justify ">5. Menyemburkan zait cair atau sama dengan memperluas permukaan zat cair dan memberi kemampuan menguap lebih besar. Contohnya adalah saat menyemprotkan parfum.</p>
+        <p className="text-justify ">5. Menyemburkan zait cair atau sama dengan memperluas permukaan zat cair dan memberi kemampuan menguap lebih besar.</p>
+        <span>Contohnya adalah saat menyemprotkan parfum.</span>
       </div>
     </div>
   );

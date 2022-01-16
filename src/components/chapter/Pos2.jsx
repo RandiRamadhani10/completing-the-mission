@@ -19,6 +19,7 @@ import cairPadat3 from "../../assets/chapter/pos1/cairPadat3.jpg";
 import PadatCair1 from "../../assets/chapter/pos1/padatCair1.jpg";
 import PadatCair2 from "../../assets/chapter/pos1/padatCair2.jpg";
 import PadatCair3 from "../../assets/chapter/pos1/padatCair3.jpg";
+import PadatCair4 from "../../assets/chapter/pos1/padatCair4.jpg";
 
 import { useNavigate, useLocation } from "react-router-dom";
 import { XCircleIcon } from "@heroicons/react/solid";
@@ -89,11 +90,13 @@ const Slide1 = () => {
 const Slide2 = () => {
   return (
     <div className="flex h-full   flex-row justify-evenly items-center p-10">
-      <p className="text-white font-bold">Contoh dalam Kehidupan Sehari-hari</p>
+      <p className="font-bold">Contoh dalam Kehidupan Sehari-hari</p>
 
       <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <ul class="list-disc px-5 text-sm">
-          <li>Terbentuknya es batu ketika air dimasukkan ke dalam freezer.</li>
+          <li>
+            Terbentuknya es batu ketika air dimasukkan ke dalam <span className="italic">freezer</span>.
+          </li>
           <li>Membekunya minyak goreng yang didinginkan dalam lemari es.</li>
           <li>Lelehan lilin jika dibiarkan akan mengeras kembali.</li>
           <li>Terbentuknya belerang pada kawah gunung.</li>
@@ -108,7 +111,9 @@ const Slide3 = () => {
       <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf rounded-xl flex-wrap  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48   flex flex-col justify-center items-center">
           <img src={cairPadat1} className="w-11/12" />
-          <p className="text-sm text-center">Air dan minyak ketika dimasukan di freezer akan membeku</p>
+          <p className="text-sm text-center">
+            Air dan minyak ketika dimasukan di <span className="italic">freezer</span> akan membeku
+          </p>
           <p className="text-xs text-blue-800">id.aliexpress.com/</p>
         </div>
         <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
@@ -126,7 +131,7 @@ const Slide4 = () => {
       <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf rounded-xl  flex-wrap  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
           <img src={cairPadat3} className="w-11/12" />
-          <p className="text-sm text-center">Terbentuknya beleran pada kawah gunung</p>
+          <p className="text-sm text-center">Terbentuknya belerang pada kawah gunung</p>
           <p className="text-xs text-blue-800">kompasiana.com/</p>
         </div>
       </div>
@@ -168,7 +173,7 @@ const Slide7 = () => {
     <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
       <div className="flex h-80 w-11/12  flex-wrap bg-colorCustom-wood border-4 border-colorCustom-leaf  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48  flex flex-col justify-center items-center">
-          <img src={cairPadat2} className="w-11/12" />
+          <img src={PadatCair4} className="w-11/12" />
           <p className="text-sm text-center">Melelehnya lilin saat dibakar.</p>
           <p className="text-xs text-blue-800">auliatrisna01.wordpress.com//</p>
         </div>

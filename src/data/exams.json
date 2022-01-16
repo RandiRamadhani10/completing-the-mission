@@ -41,7 +41,7 @@
           {
             "no": 4,
             "type": "normal",
-            "question": "… merupakan sebuah energi yang berpindah dari suatu benda bersuhu tinggi ke benda bersuhu lebih rendah...",
+            "question": " … merupakan sebuah energi yang berpindah dari suatu benda bersuhu tinggi ke benda bersuhu lebih rendah...",
             "answer": [
               { "choice": "Kalor", "validate": true },
               { "choice": "Derajat panas", "validate": false },
@@ -78,7 +78,7 @@
           {
             "no": 2,
             "type": "normal",
-            "question": "Ibu membuat kue bolu menggunakan mentega. Ibu memanaskan wajan kemudian mentega dimasukkan ke dalam wajan panas. Perubahan wujud yang terjadi setelah mentega dimasukkan dalam wajan disebut peristiwa!",
+            "question": "Ibu membuat kue bolu menggunakan mentega. Ibu memanaskan wajan kemudian mentega dimasukkan ke dalam wajan panas. Perubahan wujud yang terjadi setelah mentega dimasukkan dalam wajan disebut peristiwa...",
             "answer": [
               { "choice": "Mencair", "validate": true },
               { "choice": "Mengkristal", "validate": false },
@@ -89,9 +89,9 @@
           {
             "no": 3,
             "type": "multiple",
-            "question": "Perhatikan pernyataan di bawah in!",
+            "question": "Perhatikan pernyataan di bawah ini!",
             "detailQuestion": [{ "data": "  Menjemur pakaian" }, { "data": "Membuat es batu" }, { "data": "Membuat garam" }, { "data": "Mengeringkan padi" }, { "data": "Mencetak lilin" }],
-            "question1": "Pernyataan yang benar tentang benda cair adalah...",
+            "question1": "Pernyataan di atasyang memanfaatkan proses pembekuan adalah...",
             "answer": [
               { "choice": "(2) dan (5)", "validate": true },
               { "choice": "(2) dan (4)", "validate": false },
@@ -167,7 +167,7 @@
               { "choice": "Memperlebar permukaan wadah", "validate": true },
               { "choice": "Dilakukan penjemuran pada terik matahari", "validate": false },
               { "choice": "Dipindahkan ke wadah yang lebih sempit", "validate": false },
-              { "choice": "Didiamkan di dalam lemari es", "validate": false }
+              { "choice": "Didiamkan di luar lemari es", "validate": false }
             ]
           },
           {
@@ -175,7 +175,7 @@
             "type": "normal",
             "question": "Contoh perubahan wujud dengan proses penguapan ditunjukkan pada peristiwa...",
             "answer": [
-              { "choice": "Hand sanitizer yang mengering saat diolehkan ke tangan", "validate": true },
+              { "choice": "Hand sanitizer yang mengering saat dioleskan ke tangan", "validate": true },
               { "choice": "Mencairnya es di kutub", "validate": false },
               { "choice": "Terbentuknya belerang di kawah gunung", "validate": false },
               { "choice": "Nafas yang dihembuskan kaca", "validate": false }

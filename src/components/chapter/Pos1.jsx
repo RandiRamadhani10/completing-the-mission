@@ -10,6 +10,16 @@ import Gas from "../../assets/gas.png";
 import Mindmap from "../../assets/mindmap.png";
 import SwiperCore, { Navigation } from "swiper";
 
+import Bendacair1 from "../../assets/posIlmu/benda cair 1 (money.kompas.com) minyak.jpg";
+import BendaCair2 from "../../assets/posIlmu/benda cair 2 (haruspintar.com) air.jpg";
+import BendaCair3 from "../../assets/posIlmu/benda cair 3 (makanabis.com)kecap.jpg";
+import BendaGas1 from "../../assets/posIlmu/benda gas 1 (id.theasianparent.com) udara.jpg";
+import BendaGas2 from "../../assets/posIlmu/benda gas 2 (suara.com) asap pabrik.jpg";
+import BendaGas3 from "../../assets/posIlmu/benda gas 3 (liptan6.com) asap kebakaran.jpg";
+import BendaPadat1 from "../../assets/posIlmu/benda padat 1 (haruspintar.com) kayu.jpg";
+import BendaPadat2 from "../../assets/posIlmu/benda padat 2 (alvianisme.com) batu.jpg";
+import BendaPadat3 from "../../assets/posIlmu/benda padat 3 (islampos.com) besi.jpg";
+
 import { useNavigate, useLocation } from "react-router-dom";
 import { XCircleIcon } from "@heroicons/react/solid";
 
@@ -46,6 +56,24 @@ const Pos1 = () => {
           <SwiperSlide>
             <Slide6 />
           </SwiperSlide>
+          <SwiperSlide>
+            <Slide7 />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Slide8 />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Slide9 />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Slide10 />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Slide11 />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Slide12 />
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>
@@ -58,7 +86,9 @@ const Slide1 = () => {
         <img src={Sience} className="2-64" />
       </div>
       <div className="w-6/12 rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2 text-xs">
-        <h1 className="font-bold text-xl">Pos Ilmu</h1>
+        <div className="flex justify-center">
+          <h1 className="font-bold text-xl">POS ILMU</h1>
+        </div>
         <p className="font-bold">Bentuk Benda dan Sifatnya</p>
         <p className="text-justify">
           Wujud benda dibedakan menjadi 3, yakni padat, cair, dan gas. Contoh benda padat yaitu seperti kayu, batu, dan besi. Contoh benda cair adalah minyak, air, dan kecap. Sedangkan contoh benda gas yaitu gas oksigen, gas karbondioksida,
@@ -80,14 +110,45 @@ const Slide2 = () => {
           <li>Bentuk dan volumenya tetap.</li>
           <li>Mempunyai massa atau berat.</li>
           <li>Dapat disentuh dan dipegang.</li>
-          <li>memiliki kekerasan tertentu.</li>
-          <li>ukuran warna tidak dapat diubah</li>
+          <li>Memiliki kekerasan tertentu.</li>
+          <li>Ukuran warna tidak dapat diubah</li>
         </ul>
       </div>
     </div>
   );
 };
 const Slide3 = () => {
+  return (
+    <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf rounded-xl flex-wrap  flex-row justify-evenly items-center p-1">
+        <div className=" rounded-xl h-48 w-48   flex flex-col justify-center items-center">
+          <img src={BendaPadat1} className="w-11/12" />
+          <p className="text-sm text-center">Kayu</p>
+          <p className="text-xs text-blue-800">haruspintar.com</p>
+        </div>
+        <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
+          <img src={BendaPadat2} className="w-11/12" />
+          <p className="text-sm text-center">Air</p>
+          <p className="text-xs text-blue-800">haruspintar.com/</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+const Slide4 = () => {
+  return (
+    <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf rounded-xl  flex-wrap  flex-row justify-evenly items-center p-1">
+        <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
+          <img src={BendaPadat3} className="w-11/12" />
+          <p className="text-sm text-center">Kecap</p>
+          <p className="text-xs text-blue-800">islampos.com</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+const Slide5 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
       <div className="w-4/12 rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-1 flex justify-center items-center">
@@ -98,7 +159,7 @@ const Slide3 = () => {
         <ul class="list-disc px-5 text-sm">
           <li>Bentuknya berubah-ubah sesuai dengan tempatnya.</li>
           <li>Mempunyai volume yang tetap.</li>
-          <li>mempunyai massa.</li>
+          <li>Mempunyai massa.</li>
           <li>Mengalir ke tempat yang lebih rendah.</li>
           <li>Dapat melarutkan suatu zat tertentu.</li>
         </ul>
@@ -106,7 +167,39 @@ const Slide3 = () => {
     </div>
   );
 };
-const Slide4 = () => {
+const Slide6 = () => {
+  return (
+    <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf rounded-xl flex-wrap  flex-row justify-evenly items-center p-1">
+        <div className=" rounded-xl h-48 w-48   flex flex-col justify-center items-center">
+          <img src={Bendacair1} className="w-11/12" />
+          <p className="text-sm text-center">Minyak</p>
+          <p className="text-xs text-blue-800">money.kompas.com</p>
+        </div>
+        <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
+          <img src={BendaCair2} className="w-11/12" />
+          <p className="text-sm text-center">Batu</p>
+          <p className="text-xs text-blue-800">alvianisme.com/</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Slide7 = () => {
+  return (
+    <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf rounded-xl  flex-wrap  flex-row justify-evenly items-center p-1">
+        <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
+          <img src={BendaCair3} className="w-11/12" />
+          <p className="text-sm text-center">Kecap</p>
+          <p className="text-xs text-blue-800">makanabis.com</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+const Slide8 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
       <div className="w-4/12 rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-1 flex justify-center items-center">
@@ -125,7 +218,38 @@ const Slide4 = () => {
     </div>
   );
 };
-const Slide5 = () => {
+const Slide9 = () => {
+  return (
+    <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf rounded-xl flex-wrap  flex-row justify-evenly items-center p-1">
+        <div className=" rounded-xl h-48 w-48   flex flex-col justify-center items-center">
+          <img src={BendaGas1} className="w-11/12" />
+          <p className="text-sm text-center">Udara</p>
+          <p className="text-xs text-blue-800">id.theasianparent.com</p>
+        </div>
+        <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
+          <img src={BendaGas2} className="w-11/12" />
+          <p className="text-sm text-center">Pabrik</p>
+          <p className="text-xs text-blue-800">suara.com/</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+const Slide10 = () => {
+  return (
+    <div className="flex h-full flex-warp   flex-row justify-evenly items-center p-5">
+      <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf rounded-xl  flex-wrap  flex-row justify-evenly items-center p-1">
+        <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
+          <img src={BendaGas3} className="w-11/12" />
+          <p className="text-sm text-center">Asap Kebakaran</p>
+          <p className="text-xs text-blue-800">liptan6.com</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+const Slide11 = () => {
   return (
     <div className="flex h-full  flex-row justify-evenly items-center p-5">
       <div className="w-4/12 rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-1 flex justify-center items-center">
@@ -134,14 +258,14 @@ const Slide5 = () => {
       <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="font-bold">Pengertian Perubahan Wujud Benda</p>
         <p className="text-justify text-sm">
-          Wujud benda dapat berubah disebabkan karena benda tersebut melepaskan atau menerima kalor. Kalor sendiri memiliki arti sebagai energi panas yang berpindah dari benda bersuhu tinggi ke benda bersuhu lebih rendah. Sedangkan
-          perubahan wujud benda adalah suatu proses berubahnya wujud suatu benda menjadi wujud benda yang lain karena pelepasan atau penyerapan kalor.{" "}
+          Wujud benda dapat berubah disebabkan karena benda tersebut melepaskan atau menerima kalor. <p>Kalor sendiri memiliki arti sebagai energi panas yang berpindah dari benda bersuhu tinggi ke benda bersuhu lebih rendah.</p> Sedangkan
+          perubahan wujud benda adalah suatu proses berubahnya wujud suatu benda menjadi wujud benda yang lain karena pelepasan atau penyerapan kalor.
         </p>
       </div>
     </div>
   );
 };
-const Slide6 = () => {
+const Slide12 = () => {
   const navigate = useNavigate();
   return (
     <div className="flex h-full  flex-row justify-center items-center p-5">

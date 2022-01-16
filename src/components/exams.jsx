@@ -58,7 +58,7 @@ const Quest = ({ prop, arr }) => {
     <div className="p-2 flex h-full w-full flex-col justify-start rounded-xl items-center ">
       {datas.type == "normal" ? (
         <div className="p-3 flex flex-row bg-neutral-50 border-4 border-colorCustom-leaf rounded-xl w-full m-5">
-          <p>{datas.no}. </p>
+          <p>{datas.no}. </p>
           <p>{datas.question}</p>
         </div>
       ) : (
@@ -115,7 +115,7 @@ const End = ({ arr }) => {
     count < 80
       ? Swal.fire({
           icon: "error",
-          title: "Oops...",
+          title: `Skor Kamu : ${count}`,
           text: "Kamu belum berhasil",
         }).then((result) => {
           if (result.isConfirmed) {
@@ -126,7 +126,7 @@ const End = ({ arr }) => {
         })
       : Swal.fire({
           icon: "success",
-          title: "Good job!",
+          title: `Skor Kamu : ${count}`,
           text: "Kamu berhasil",
         }).then((result) => {
           if (result.isConfirmed) {
@@ -134,11 +134,12 @@ const End = ({ arr }) => {
             let index = parseInt(location.state);
 
             dataPush[index].exam = count;
-            location.state < 3 ? (dataPush[index + 1].checkpoint = true) : console.log("pancet");
+
             dataPush = [{ data: dataPush }];
 
             dataLocal.setData(dataPush, "checkpoint");
-            return navigate("/map");
+            console.log(index);
+            index <= 2 ? navigate("/map") : navigate("/final");
           } else {
             return false;
           }
