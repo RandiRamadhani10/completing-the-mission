@@ -76,7 +76,9 @@ const Slide1 = () => {
         <video src={Menyublin} autoPlay muted loop type="video/mp4" />
       </div>
       <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
-        <h1 className="font-bold text-xl">POS GAS DAN PADAT</h1>
+        <div className="flex justify-center">
+          <h1 className="font-bold text-xl">POS GAS DAN PADAT</h1>
+        </div>
         <p className="font-bold">Menyublim (Padat – Gas)</p>
         <p className="text-justify text-sm">Menyublim merupakan peristiwa perubahan zat padat menjadi zat cair yang dipengaruhi oleh meningkatnya kalor.</p>
       </div>

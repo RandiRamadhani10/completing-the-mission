@@ -22,27 +22,27 @@ const Profile = () => {
               <ol className=" py-2 px-10  list-disc text-sm mx-5   ">
                 <li className="flex-row flex">
                   <p className="w-16">Nama</p>
-                  <p>: Dwi Agustin Purnaning.</p>
+                  <p>: Dwi Agustin Purnaning</p>
                 </li>
                 <li className="flex-row flex">
                   <p className="w-16">NIM</p>
-                  <p>: 18010644099.</p>
+                  <p>: 18010644099</p>
                 </li>
                 <li className="flex-row flex">
                   <p className="w-16">Jurusan</p>
-                  <p>: S1 Pendidikan Guru Sekolah Dasar.</p>
+                  <p>: S1 Pendidikan Guru Sekolah Dasar</p>
                 </li>
                 <li className="flex-row flex">
                   <p className="w-16">Alamat</p>
-                  <p>: Ds. Kebonagung Kec. Ploso Kab Jombang.</p>
+                  <p>: Ds. Kebonagung Kec. Ploso Kab Jombang</p>
                 </li>
                 <li className="flex-row flex">
                   <p className="w-16">Email</p>
-                  <p>: dwiagustinprn@gmail.com.</p>
+                  <p>: dwiagustinprn@gmail.com</p>
                 </li>
               </ol>
               <p className="px-10 font-bold">Dosen Pembimbing</p>
-              <p className="px-10 text-sm">Farida Istianah, S.Pd., M.Pd.</p>
+              <p className="px-10 text-sm">Farida Istianah, S.Pd., M.Pd</p>
             </div>
           </div>
           <button

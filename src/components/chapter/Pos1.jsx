@@ -111,7 +111,7 @@ const Slide2 = () => {
           <li>Mempunyai massa atau berat.</li>
           <li>Dapat disentuh dan dipegang.</li>
           <li>Memiliki kekerasan tertentu.</li>
-          <li>Ukuran warna tidak dapat diubah</li>
+          <li>Ukuran warna tidak dapat diubah.</li>
         </ul>
       </div>
     </div>
@@ -128,7 +128,7 @@ const Slide3 = () => {
         </div>
         <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
           <img src={BendaPadat2} className="w-11/12" />
-          <p className="text-sm text-center">Air</p>
+          <p className="text-sm text-center">Batu</p>
           <p className="text-xs text-blue-800">haruspintar.com/</p>
         </div>
       </div>
@@ -141,7 +141,7 @@ const Slide4 = () => {
       <div className="flex h-80 w-11/12 bg-colorCustom-wood border-4 border-colorCustom-leaf rounded-xl  flex-wrap  flex-row justify-evenly items-center p-1">
         <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
           <img src={BendaPadat3} className="w-11/12" />
-          <p className="text-sm text-center">Kecap</p>
+          <p className="text-sm text-center">Besi</p>
           <p className="text-xs text-blue-800">islampos.com</p>
         </div>
       </div>
@@ -178,7 +178,7 @@ const Slide6 = () => {
         </div>
         <div className=" rounded-xl h-48 w-48 m-2  flex flex-col justify-center items-center">
           <img src={BendaCair2} className="w-11/12" />
-          <p className="text-sm text-center">Batu</p>
+          <p className="text-sm text-center">Air</p>
           <p className="text-xs text-blue-800">alvianisme.com/</p>
         </div>
       </div>
@@ -257,7 +257,7 @@ const Slide11 = () => {
       </div>
       <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
         <p className="font-bold">Pengertian Perubahan Wujud Benda</p>
-        <p className="text-justify text-sm">
+        <p className="text-justify text-xs">
           Wujud benda dapat berubah disebabkan karena benda tersebut melepaskan atau menerima kalor. <p>Kalor sendiri memiliki arti sebagai energi panas yang berpindah dari benda bersuhu tinggi ke benda bersuhu lebih rendah.</p> Sedangkan
           perubahan wujud benda adalah suatu proses berubahnya wujud suatu benda menjadi wujud benda yang lain karena pelepasan atau penyerapan kalor.
         </p>

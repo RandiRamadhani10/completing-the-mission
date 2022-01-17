@@ -134,11 +134,11 @@ const End = ({ arr }) => {
             let index = parseInt(location.state);
 
             dataPush[index].exam = count;
+            index <= 2 ? (dataPush[index + 1].checkpoint = true) : console.log("nice try");
 
             dataPush = [{ data: dataPush }];
-
             dataLocal.setData(dataPush, "checkpoint");
-            console.log(index);
+
             index <= 2 ? navigate("/map") : navigate("/final");
           } else {
             return false;

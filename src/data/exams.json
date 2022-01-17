@@ -9,8 +9,8 @@
             "question": "Berikut adalah sifat dan ciri-ciri benda cair, baik dari bentuknya, volume, jarak partikel dan gaya tarik penyusunnya...",
             "answer": [
               { "choice": "Bentuknya tidak tetap dan selalu berubah-ubah", "validate": true },
-              { "choice": "Memiliki volume yang tetap", "validate": false },
-              { "choice": "Jarak antarpartikel sangat rapat", "validate": false },
+              { "choice": "Memiliki volume dan bentuk yang tetap", "validate": false },
+              { "choice": "Jarak antar partikel sangat rapat", "validate": false },
               { "choice": "Gaya antar partikel cukup kuat", "validate": false }
             ]
           },
@@ -41,7 +41,7 @@
           {
             "no": 4,
             "type": "normal",
-            "question": " … merupakan sebuah energi yang berpindah dari suatu benda bersuhu tinggi ke benda bersuhu lebih rendah...",
+            "question": " … merupakan sebuah energi yang berpindah dari suatu benda bersuhu tinggi ke benda bersuhu lebih rendah.",
             "answer": [
               { "choice": "Kalor", "validate": true },
               { "choice": "Derajat panas", "validate": false },
@@ -227,6 +227,17 @@
               { "choice": "Peleburan", "validate": false },
               { "choice": "Pengkristalan", "validate": false },
               { "choice": "Penguapan", "validate": false }
+            ]
+          },
+          {
+            "no": 5,
+            "type": "normal",
+            "question": "Bunga es yang menempel pada dinding freezer merupakan perubahan wujud ...",
+            "answer": [
+              { "choice": "Pengkristalan karena melepas kalor", "validate": true },
+              { "choice": "Pengkristalan karena menyerap kalor", "validate": false },
+              { "choice": "Penyubliman karena menyerap kalor", "validate": false },
+              { "choice": "Penyubliman karena melepas kalor", "validate": false }
             ]
           }
         ]

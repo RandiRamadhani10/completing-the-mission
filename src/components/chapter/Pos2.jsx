@@ -80,7 +80,9 @@ const Slide1 = () => {
         <video src={Membeku} autoPlay muted loop type="video/mp4" />
       </div>
       <div className="w-6/12  rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
-        <h1 className="font-bold text-xl">POS PADAT DAN CAIR</h1>
+        <div className="flex justify-center">
+          <h1 className="font-bold text-xl">POS PADAT DAN CAIR</h1>
+        </div>
         <p className="font-bold">Membeku (Cair – Padat)</p>
         <p className="text-justify text-sm">Membeku merupakan peristiwa perubahan wujud dari zat cair menjadi zat padat yang disebabkan karena pelepasan kalor.</p>
       </div>
@@ -89,7 +91,7 @@ const Slide1 = () => {
 };
 const Slide2 = () => {
   return (
-    <div className="flex h-full   flex-row justify-evenly items-center p-10">
+    <div className="flex h-full   flex-row justify-evenly items-center px-10">
       <p className="font-bold">Contoh dalam Kehidupan Sehari-hari</p>
 
       <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
@@ -153,7 +155,7 @@ const Slide5 = () => {
 };
 const Slide6 = () => {
   return (
-    <div className="flex h-full  flex-row justify-evenly items-center p-10">
+    <div className="flex h-full  flex-row justify-evenly items-center px-10">
       <p className=" font-bold">Contoh dalam Kehidupan Sehari-hari</p>
 
       <div className="w-6/12 flex flex-col justify-center rounded-xl h-full bg-colorCustom-wood border-4 border-colorCustom-leaf p-2">
